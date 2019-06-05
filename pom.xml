@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tjfae</groupId>
+    <artifactId>tjfae-discover-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>tjfae-discover-common</module>
+        <module>tjfae-discover-biz</module>
+        <module>tjfae-discover-pojo</module>
+        <module>tjfae-discover-dal</module>
+        <module>tjfae-discover-controller</module>
+    </modules>
+    <properties>
+        <!--统一配置版本-->
+
+        <!-- set thymeleaf version -->
+        <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
+        <thymeleaf-layout-dialect.version>2.2.2</thymeleaf-layout-dialect.version>
+    </properties>
+
+    <dependencies>
+        <!--springBoot的web依賴-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+    </dependencies>
+    <packaging>pom</packaging>
+
+</project>
