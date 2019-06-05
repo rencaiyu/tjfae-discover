@@ -20,6 +20,7 @@
         <module>tjfae-discover-pojo</module>
         <module>tjfae-discover-dal</module>
         <module>tjfae-discover-controller</module>
+        <module>tjfae-discover-deploy</module>
     </modules>
     <properties>
         <!--统一配置版本-->
